@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MeuGerenciadorFinanceiro3</string>
+    <string name="novo">Novo</string>
+    <string name="anterior">Anterior</string>
+    <string name="proximo">Próximo</string>
+    <string name="despesa">Despesa</string>
+    <string name="receita">Receita</string>
+    <string name="naoPago">Não pago</string>
+    <string name="pago">Pago</string>
+    <string name="dataLancamento">Data lançamento</string>
+    <string name="descricao">Descrição</string>
+    <string name="categoria">Categoria</string>
+    <string name="valor">Valor</string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="lancamento">Lançamento</string>
+    <string name="tipo">Tipo</string>
+    <string name="dataDeCriacao">Data de criação</string>
+</resources>
