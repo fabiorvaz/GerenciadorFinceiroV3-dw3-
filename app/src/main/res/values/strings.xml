@@ -16,4 +16,5 @@
     <string name="lancamento">Lançamento</string>
     <string name="tipo">Tipo</string>
     <string name="dataDeCriacao">Data de criação</string>
+    <string name="deletar">Deletar</string>
 </resources>

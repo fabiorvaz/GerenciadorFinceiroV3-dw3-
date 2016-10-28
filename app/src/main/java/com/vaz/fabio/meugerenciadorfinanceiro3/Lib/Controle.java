@@ -30,6 +30,35 @@ public class Controle {
         listaLancamento.add(new Lancamento(calculaCodigo(), descricao, Calendar.getInstance().getTime(), lancamento, categoria, pago, tipo, valor));
     }
 
+    public void atualizaLancamento(String categoria, String descricao, float valor, Date lancamento, int cod)
+    {
+        for(int i=0;i<listaLancamento.size();i++)
+        {
+            Lancamento temp = listaLancamento.get(i);
+            if(temp.getCodigo() == cod)
+            {
+                temp.setCategoria(categoria);
+                temp.setDataLancamento(lancamento);
+                temp.setDescricao(descricao);
+                temp.setValor(valor);
+                listaLancamento.set(i, temp);
+                return;
+            }
+        }
+    }
+
+    public void deletaRegistro(int cod)
+    {
+        int i = 0;
+        for(i=0;i<listaLancamento.size();i++)
+        {
+            Lancamento temp = listaLancamento.get(i);
+            if(temp.getCodigo() == cod)
+                break;
+        }
+        listaLancamento.remove(i);
+    }
+
     private int calculaCodigo()
     {
         if(listaLancamento.size()>=1)

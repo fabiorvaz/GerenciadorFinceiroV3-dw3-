@@ -3,21 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_37f3daf6f1e8785a5f3b05e0f5cae3895432acc2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_e4af2f875f74e3b74399a060f767caac8302fb91\classes.dex" />
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_ceff1c02c913fc06591ce42f220923c2318efe3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_fa2e006f36a4dbdc9c8d8d7501748c179b90dfed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_02ac293701a89c36b8739cc72ceeca7b14aebe5e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -26,133 +35,124 @@
         optimize="true"
         revision="25.0.0"
         sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_b167722823d2d7dfcf7848d695f9365fbda07acc\classes.dex" />
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_b167722823d2d7dfcf7848d695f9365fbda07acc\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_6bf609427995736c59b6eb5aff47f950c129195d\classes.dex" />
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_dbbfb8f06a00b8933c1efeb538e582a8710d84f2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f35fe079a44e2957845d41b3700492b7ecc0b380">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_42a96f4a87c6f4a76ca199a5f87caf8288861f86\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_23b0d44e9b0b2e8700a5aa39fde573fbc8ae9b80\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_ea359bb40a4b244a1cefe57db11d6dfff890f306\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_354a672ee3eda2cb67d82aeb34720cd7f6c11ff8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_33f08296ad48a8558a89e41f91c555730f79ed02\classes.dex" />
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_22672d6e5abe68cdca8264475515a4bed4302c65\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_6111bf2c938cc59211704facc7baa9c3fcae7034\classes.dex" />
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_2af433aea47fd905ed3102f36f0984e62072f6ab\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_cf6d85fcd7066c49b3c5eb5c5dc7135a89104697\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_54ec9f6a4b4fae4099115cd20d4f3c99db3f6e59\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_6bcd7f8b9c02bbc5c9d4f5b70380e0a282cdc0c0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fb6f8ff70402564ff5afb8d7f25b04a394ad9158">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_250557c640bd0c6c3df9fc6aabbf77e6621d6e91\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_4778d4f57818e0519e63bb7043103aca6b4de502\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c72c3f5aacf6ff369daa25cf5559417ef19164cd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\MeuGerenciadorFinanceiro3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e72182285908a1f383f27ffb657a3ecaa986718c\classes.dex" />
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_7af6fbd81fc35eb5bb9560a51d685ab95be7c0d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e6b27621b0d338207ed76be7ed526cf15c00976a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa0d98a94b7f1c494cf304923e2d30949d9b1a1c">
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7168ac114e643320843fa83079de4c2bc7583235\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_42e6393f93388f08cc7547e357099f283a05add4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_38d6544dab08e1a26e39817168b69fd0d2a0186b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_ab98ebbfec2525920ca26a39549c8d5140b6e702\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_f8c7a288c3b9ca4f3d4966e00ae8295a6bbf29a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_d8e477885db4fa037d9a5bc51265ae3a5b9343a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_2d71d24936c80a64e241fec5fcf1e4aad37e8d77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6977ddf271216473ed03243dcd53512453749e9d">
+        <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6110653f0bb25d7bb04de7f6ee7e5e82ff928f9e\classes.dex" />
     </item>
 
 </items>
