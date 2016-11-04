@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="aa0d98a94b7f1c494cf304923e2d30949d9b1a1c">
+        sha1="792673c3645fb230f9b21bef8c3e08d74c86df2b">
         <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7168ac114e643320843fa83079de4c2bc7583235\classes.dex" />
     </item>
     <item
@@ -151,7 +151,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6977ddf271216473ed03243dcd53512453749e9d">
+        sha1="eb26b335006773831805ce94c24cff6367c959c5">
         <dex dex="C:\Users\usuario\Desktop\Fabio\Aula\dw3\gerenciador financeiro\GerenciadorFinceiroV3-dw3-\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6110653f0bb25d7bb04de7f6ee7e5e82ff928f9e\classes.dex" />
     </item>
 

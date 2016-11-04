@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
             android:id="@+id/scrollView1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -104,6 +105,12 @@
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                     android:id="@+id/lbl_valor"/>
 
+                <SeekBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/seekBar2"
+                    android:layout_weight="1"/>
+
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -114,8 +121,40 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emQuantasVezes"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:id="@+id/lbl_parcelas"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:layout_marginLeft="10dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:id="@+id/lbl_parcelas_atuais"/>
+
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp"
+                    android:max="11"
+                    android:progress="0"
+                    android:id="@+id/seekBar4"
+                    android:scrollbarSize="20dp"
+                    android:scrollbarStyle="insideInset"
+                    style="@style/Widget.AppCompat.SeekBar.Discrete"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp">
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

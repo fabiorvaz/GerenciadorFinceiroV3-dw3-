@@ -12,7 +12,14 @@ import android.widget.TextView;
 import com.vaz.fabio.meugerenciadorfinanceiro3.Lib.Controle;
 import com.vaz.fabio.meugerenciadorfinanceiro3.Lib.Lancamento;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    Calendar refencia = Calendar.getInstance();
+    SimpleDateFormat month_date = new SimpleDateFormat("MMMM");
+    SimpleDateFormat year_date = new SimpleDateFormat("yyyy");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +32,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void init() {
         Controle.initInstancia();
-        Button btnNovo = (Button) findViewById(R.id.btnNovo);
-        btnNovo.setOnClickListener(this);
+        ((Button) findViewById(R.id.btnNovo)).setOnClickListener(this);
+        ((Button) findViewById(R.id.btnAnterior)).setOnClickListener(this);
+        ((Button) findViewById(R.id.btnProximo)).setOnClickListener(this);
+
+        carregarListaLancamentos();
+    }
+
+    private void carregarListaLancamentos()
+    {
+        String mesAno = month_date.format(refencia.getTime())+ "/"+ year_date.format(refencia.getTime());
+        ( (TextView) findViewById(R.id.txtMes)).setText( mesAno.substring(0,1).toUpperCase() + mesAno.substring(1).toLowerCase());
 
         TableLayout stk = (TableLayout) findViewById(R.id.table_main);
         stk.removeAllViews();
@@ -49,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tbrow0.addView(tv4);
         stk.addView(tbrow0);
 
-        for (Lancamento l : Controle.instancia.listaLancamento) {
+        for (Lancamento l : Controle.instancia.getLancamentosByMonthYear(refencia.getTime())) {
             TableRow tbrow = new TableRow(this);
 
             java.text.DateFormat dateFormat = android.text.format.DateFormat.getDateFormat(getApplicationContext());
@@ -119,6 +135,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(inn1);
                 break;
 
+            case R.id.btnAnterior:
+                refencia.add(Calendar.MONTH,-1);
+                carregarListaLancamentos();
+                break;
+
+            case R.id.btnProximo:
+                refencia.add(Calendar.MONTH,1);
+                carregarListaLancamentos();
+                break;
             default:
                 return;
         }

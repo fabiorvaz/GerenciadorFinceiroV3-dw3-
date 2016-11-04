@@ -29,6 +29,11 @@ public class EditRegistro extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_registro);
 
+       init();
+    }
+
+    private void init()
+    {
         Bundle extras = getIntent().getExtras();
         Spinner spinner = (Spinner) findViewById(R.id.editDdCategoria);
 
@@ -61,6 +66,8 @@ public class EditRegistro extends AppCompatActivity implements View.OnClickListe
             {
                 ( (TextView) findViewById(R.id.editTxtDespesa)).setText(R.string.despesa);
             }
+
+            ((ToggleButton) findViewById(R.id.editTgBtnPago)).setChecked(lancamentoSelecionado.isPago());
         }
 
         Button btnSalvarLancamento = (Button) findViewById(R.id.btnSalvarLancamento);
@@ -120,7 +127,7 @@ public class EditRegistro extends AppCompatActivity implements View.OnClickListe
         float valor =  Float.valueOf(((EditText) findViewById(R.id.editTxtValor)).getText().toString());
         Date lancamento = Controle.instancia.getDateFromDatePicket((DatePicker) findViewById(R.id.editDtpDataLancamento));
         Bundle extras = getIntent().getExtras();
-
-        Controle.instancia.atualizaLancamento(categoria,descricao,valor,lancamento,Integer.parseInt(extras.getString("id")));
+        boolean pago = ((ToggleButton) findViewById(R.id.editTgBtnPago)).isChecked();
+        Controle.instancia.atualizaLancamento(categoria,descricao,valor,lancamento,Integer.parseInt(extras.getString("id")),pago);
     }
 }

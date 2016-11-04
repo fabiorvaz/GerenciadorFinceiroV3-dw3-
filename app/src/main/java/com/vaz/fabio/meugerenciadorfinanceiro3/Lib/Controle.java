@@ -5,6 +5,7 @@ import android.widget.DatePicker;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * Created by usuario on 25/10/2016.
@@ -30,7 +31,7 @@ public class Controle {
         listaLancamento.add(new Lancamento(calculaCodigo(), descricao, Calendar.getInstance().getTime(), lancamento, categoria, pago, tipo, valor));
     }
 
-    public void atualizaLancamento(String categoria, String descricao, float valor, Date lancamento, int cod)
+    public void atualizaLancamento(String categoria, String descricao, float valor, Date lancamento, int cod, boolean pago)
     {
         for(int i=0;i<listaLancamento.size();i++)
         {
@@ -41,6 +42,7 @@ public class Controle {
                 temp.setDataLancamento(lancamento);
                 temp.setDescricao(descricao);
                 temp.setValor(valor);
+                temp.setPago(pago);
                 listaLancamento.set(i, temp);
                 return;
             }
@@ -86,5 +88,22 @@ public class Controle {
                 return l;
         }
         return null;
+    }
+
+    public ArrayList<Lancamento> getLancamentosByMonthYear (Date referencia) {
+        ArrayList<Lancamento> retorno = new ArrayList<>();
+        for (Lancamento l : listaLancamento)
+        {
+            Calendar cal1 = Calendar.getInstance();
+            Calendar cal2 = Calendar.getInstance();
+            cal1.setTime(referencia);
+            cal2.setTime(l.getDataLancamento());
+            boolean sameMonth = cal1.get(Calendar.YEAR) == cal2.get(Calendar.YEAR) &&
+                    cal1.get(Calendar.MONTH) == cal2.get(Calendar.MONTH);
+            if(sameMonth)
+                retorno.add(l);
+        }
+        return retorno;
+
     }
 }

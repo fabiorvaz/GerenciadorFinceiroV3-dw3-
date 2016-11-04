@@ -38,7 +38,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
 
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:id="@+id/txtMes"
             android:background="@android:color/darker_gray"
             android:gravity="center_vertical|center_horizontal"/>

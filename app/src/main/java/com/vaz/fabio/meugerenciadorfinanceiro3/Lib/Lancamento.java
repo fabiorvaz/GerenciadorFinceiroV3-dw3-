@@ -1,5 +1,7 @@
 package com.vaz.fabio.meugerenciadorfinanceiro3.Lib;
 
+import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.StringTokenizer;
 
@@ -16,6 +18,7 @@ public class Lancamento {
     private boolean pago;
     private boolean tipo;
     private float valor;
+    private ArrayList<Parcela> parcelas = new ArrayList<>();
 
     public Lancamento() {
     }
@@ -29,6 +32,27 @@ public class Lancamento {
         pago = p;
         tipo = t;
         valor = v;
+    }
+
+    public Lancamento(int id, String d,Date dc, Date dl, String c, boolean p, boolean t, float v, int nParcelas) {
+        codigo = id;
+        descricao = d;
+        dataCriacao = dc;
+        categoria = c;
+        tipo = t;
+        valor = v;
+
+        float valorp = valor/nParcelas;
+        Calendar cale = Calendar.getInstance();
+
+
+        for(int i=0; i<nParcelas;i++)
+        {
+            //Date dataLancamento, boolean pago, float valor
+            cale.setTime(getDataLancamento());
+            cale.add(Calendar.MONTH,i);
+            parcelas.add(new Parcela(i,codigo, cale.getTime(), p, valorp));
+        }
     }
 
     public int getCodigo() {

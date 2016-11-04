@@ -5,17 +5,20 @@ import android.icu.util.DateInterval;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.format.DateUtils;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.SeekBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
 import com.vaz.fabio.meugerenciadorfinanceiro3.Lib.Controle;
 
+import java.util.Calendar;
 import java.util.Date;
 
 public class novo_registro extends AppCompatActivity implements View.OnClickListener {
@@ -39,6 +42,29 @@ public class novo_registro extends AppCompatActivity implements View.OnClickList
 
         Button btnCancelarLancamento = (Button) findViewById(R.id.btnCancelarLancamento);
         btnCancelarLancamento.setOnClickListener(this);
+
+        final SeekBar sk=(SeekBar) findViewById(R.id.seekBar4);
+        sk.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                // TODO Auto-generated method stub
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+                // TODO Auto-generated method stub
+            }
+
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                // TODO Auto-generated method stub
+
+                ((TextView) findViewById(R.id.lbl_parcelas_atuais)).setText(String.valueOf(progress + 1));
+
+            }
+        });
+
     }
 
     @Override
@@ -67,6 +93,16 @@ public class novo_registro extends AppCompatActivity implements View.OnClickList
         Date lancamento = Controle.instancia.getDateFromDatePicket((DatePicker) findViewById(R.id.txtDataLancamento));
         boolean tipo = ((ToggleButton) findViewById(R.id.tgBtnReceita)).isChecked();
         boolean pago = ((ToggleButton) findViewById(R.id.tgBtnPago)).isChecked();
-        Controle.instancia.cadastraLancamento(categoria,descricao,valor,lancamento,tipo,pago);
+        int parcelas = Integer.parseInt(((TextView) findViewById(R.id.lbl_parcelas_atuais)).getText().toString());
+        float valorp =valor/parcelas;
+        Calendar cale = Calendar.getInstance();
+
+
+        for(int i=0; i<parcelas;i++)
+        {
+            cale.setTime(lancamento);
+            cale.add(Calendar.MONTH,i);
+            Controle.instancia.cadastraLancamento(categoria, descricao, valorp, cale.getTime(), tipo, pago);
+        }
     }
 }
